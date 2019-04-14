@@ -1,0 +1,19 @@
+title: Le data Blog
+description: >
+  Un blog sur la data,<br> l'intelligence artificielle, <br>
+  et mes projets.
+copyright: Rémi Bois
+sass:
+  sass_dir: assets/sass
+url: http://localhost:4000
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+twitter_username: "sildar44"
+linkedin_username: "remi-bois"
+github_username:  "sildar"
+feed_icon: rss
+email: "remibois.contact@gmail.com"
+paginate_path: "/page/:num/"
+paginate: 5
