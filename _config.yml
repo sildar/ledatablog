@@ -1,14 +1,15 @@
-title: Le data Blog
+title: Le Data Blog
 description: >
   Un blog sur la data,<br> l'intelligence artificielle, <br>
   et mes projets.
 copyright: Rémi Bois
 sass:
   sass_dir: assets/sass
-url: http://localhost:4000
+url: http://ledatablog.com
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap 
 
 twitter_username: "sildar44"
 linkedin_username: "remi-bois"
