@@ -15,15 +15,24 @@
         <header class="major">
           <h2>{{ page.title }}</h2>
           <p>
-            <i class="fa fa-calendar"></i> {{ page.date | date: "%d %B %Y" }}{% if page.categories %} on <i class="fa fa-tags"></i> {{ page.categories | array_to_sentence_string }}.{% endif %}
+            <i class="fa fa-calendar"></i> Le {{ page.date | date: "%d-%m-%Y" }}{% if page.categories %} <i class="fa fa-tags"></i> {{ page.categories | array_to_sentence_string }} {% endif %}
             {% include readingtime.html %}
           </p>
+		  <figure>
+		  <img src="/images/thumbs/{{ page.thumbnail }}" class="image headimage">
+		  	  <figcaption> {{ page.thumbnaildesc }} </figcaption>
+		   </figure>
         </header>
 
         <section>
           {{ content }}
         </section>
       </article>
+	  
+		  <figure>
+		  <img src="/images/thumbs/{{ page.closingthumb }}" class="image headimage">
+		  	  <figcaption> {{ page.closingthumbdesc }} </figcaption>
+		   </figure>
 
       {% include disqus.html %}
 

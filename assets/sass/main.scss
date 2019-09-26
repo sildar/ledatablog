@@ -44,6 +44,7 @@
 	$size-header-width: 35%;
 	$size-header-pad: 4em;
 
+	
 /* Basic */
 
 	body {
@@ -549,6 +550,24 @@
 				width: 100%;
 			}
 		}
+		
+		&.headimage {
+			display: block;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			width: 60%;
+			img {
+				width: 100%;
+			}
+		}
+		
+	}
+	
+	
+	figcaption {
+		font-size: 0.8em;
+		text-align: center;
 	}
 
 /* List */
@@ -1000,6 +1019,9 @@
 		}
 	}
 
+
+	
+	
 /* Poptrox */
 
 	@include keyframes('spin') {
