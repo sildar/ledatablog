@@ -18,10 +18,7 @@
             <i class="fa fa-calendar"></i> Le {{ page.date | date: "%d-%m-%Y" }}{% if page.categories %} <i class="fa fa-tags"></i> {{ page.categories | array_to_sentence_string }} {% endif %}
             {% include readingtime.html %}
           </p>
-		  <figure>
-		  <img src="/images/thumbs/{{ page.thumbnail }}" class="image headimage">
-		  	  <figcaption> {{ page.thumbnaildesc }} </figcaption>
-		   </figure>
+
         </header>
 
         <section>
