@@ -14,7 +14,7 @@ plugins:
 twitter_username: "sildar44"
 linkedin_username: "remi-bois"
 github_username:  "sildar"
-feed_icon: rss
+feed_icon: feed
 email: "remibois.contact@gmail.com"
 paginate_path: "/page/:num/"
 paginate: 5
