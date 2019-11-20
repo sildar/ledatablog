@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World !"
 categories: Meta
-excerpt: "Petite description des 4 types de contenus qui apparaîtront blog : l'IA, la BI, Python, et la data."
+excerpt: "Petite description des 4 types de contenus qui apparaîtront dans ce blog : l'IA, la BI, Python, et la data."
 thumbnail: 'brain_computer.jpg'
 closingthumb: 'cat01.jpg'
 closingthumbdesc: 'Mon chat devrait clore chacun des billets de ce blog.'
