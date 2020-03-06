@@ -34,7 +34,7 @@ Le projet en 1 étape n'aboutit que rarement. Parfois l'approche choisie ne fonc
 
 Si un projet peut généralement être résumé à trois étapes : étude, construction et exploitation, on se propose ici de le découper en cinq : analyse du besoin, analyse et préparation des données, construction d'une baseline, construction et évaluation de l'algorithme, et enfin bilans et clôture.
 
-![Les 5 étapes décrites dans ce post](/images/5steps.png){:style="display: block; margin-left: auto; margin-right: auto; width: 80%"}
+![Les 5 étapes décrites dans ce post](/images/content/5steps.png){:style="display: block; margin-left: auto; margin-right: auto; width: 80%"}
 
 Ces étapes sont conçues pour permettre une sortie "sans regrets" à la fin de chacune d'entre elle, dans l'objectif de minimiser les pertes en cas d'échec et de pouvoir capitaliser sur l'expérience acquise en cas de succès.
 
@@ -94,7 +94,7 @@ Dans tous les cas, cette étape est l'occasion de mettre à jour le rapport d'an
 ## 4. Développer l'algorithme et l'évaluer
 
 Il s'agit ici de la partie réellement intéressante pour le développeur d'intelligence artificielle. À cette étape, la plupart des craintes ont pu être levées, et la seule incertitude restante est la marge de progression entre la baseline et l'algorithme d'intelligence artificielle.
-Cette étape peut représenter un temps conséquent d'autant plus qu'elle doit contenir une phase n'analyse précise des résultats montrant les forces et les faiblesses du système mis en place.
+Cette étape peut représenter un temps conséquent d'autant plus qu'elle doit contenir une phase d'analyse précise des résultats montrant les forces et les faiblesses du système mis en place.
 
 Elle aboutie à la rédaction d'un rapport technique, plus ou moins exhaustif selon les attentes.
 
