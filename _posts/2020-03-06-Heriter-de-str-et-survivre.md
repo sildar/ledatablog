@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python : Hériter de str et survivre"
-categories: python
+categories: Python
 excerpt: "Hériter de str en Python est en règle générale une mauvaise idée : mieux vaut encapsuler. Qu'importe, lançons-nous dans l'aventure et voyons ce qu'il en retourne."
 thumbnail: 'inheritstr.jpg'
 closingthumb: 'cat06.jpg'
