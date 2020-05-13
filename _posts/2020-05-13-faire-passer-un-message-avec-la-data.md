@@ -6,6 +6,7 @@ excerpt: "Comment faire passer différents messages via la data. Exemple d'une c
 thumbnail: 'data_viz2.png'
 closingthumb: 'cat07.jpg'
 closingthumbdesc: "Chat en attente d'un jeu de plateau !"
+sharethumb: '/images/content/surmortalite_insee.png'
 ---
 
 Avoir des données c'est bien. Les enrichir, les étendre, s'en servir pour faire de la prédiction, c'est mieux. Mais ce n'est souvent pas suffisant.
