@@ -2,7 +2,7 @@
 layout: post
 title:  "Visualisation : faire passer un message avec la data"
 categories: Data Visualisation Covid
-excerpt: "Comment faire passer différents messages via la data. Exemple d'une carte de l'INSEE dans le contexte covid-19."
+excerpt: "Comment faire passer différents messages via la data. Exemple au travers d'une carte publiée par l'INSEE et d'une version alternative dans le contexte du covid-19."
 thumbnail: '2choro.png'
 closingthumb: 'cat07.jpg'
 closingthumbdesc: "Chat en attente d'un jeu de plateau !"
