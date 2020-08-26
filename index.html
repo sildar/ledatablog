@@ -34,6 +34,23 @@ image: /images/fulls/01.jpg
   </section>
 
 
+{% if paginator.total_pages > 1 %}
+<!-- Pagination links -->
+<center>
+<section style="margin-bottom: 1em;">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">Previous</a>
+  {% endif %}
+  <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Next</a>
+  {% endif %}
+</section>
+</center>
+{% endif %}
+
+
+
 	  	<!-- Begin Mailchimp Signup Form -->
 
 <div id="mc_embed_signup" style="margin-top:50px; width: 58%; margin: auto;">
@@ -50,15 +67,3 @@ image: /images/fulls/01.jpg
 
 <!--End mc_embed_signup-->
 
-{% if paginator.total_pages > 1 %}
-<!-- Pagination links -->
-<section>
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}">Previous</a>
-  {% endif %}
-  <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}">Next</a>
-  {% endif %}
-</section>
-{% endif %}
