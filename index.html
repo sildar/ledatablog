@@ -39,11 +39,11 @@ image: /images/fulls/01.jpg
 <center>
 <section style="margin-bottom: 1em;">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}">Previous</a>
+    <a href="{{ paginator.previous_page_path }}">Précédent</a>
   {% endif %}
-  <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  <span>Page: {{ paginator.page }} sur {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}">Next</a>
+    <a href="{{ paginator.next_page_path }}">Suivant</a>
   {% endif %}
 </section>
 </center>
