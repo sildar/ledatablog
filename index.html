@@ -4,15 +4,15 @@ image: /images/fulls/01.jpg
 ---
 <section>
   <header class="major">
-    <h2>L'auteur</h2>
-    <p>
-    Docteur en informatique, Mayennais, je suis passionné par la data et l'intelligence artificielle.
-    Après une thèse portant sur la construction d'interfaces innovantes pour parcourir l'actualité, j'ai rejoint le groupe Ouest France comme Data Scientist. J'ai plus tard décidé de rejoindre le groupe Jouve en tant qu'Ingénieur Recherche et Développement Senior.
-    </p>
-    <ul class="actions">
-      <li><a href="mailto:remibois.contact@gmail.com" class="button">Contactez-moi</a></li>
-    </ul>
-    </header>
+    <h2>Le datablog</h2>
+
+      Vous trouverez ici des articles autour de l'univers de la data au sens large :
+      Datascience, Machine Learning, Intelligence Artificielle, NLP, Dataviz, Python, ... 
+      bref, tout ce qui fait mon quotidien. Parfois techniques, toujours accessibles, ils s'adressent
+      aux débutants qui souhaitent découvrir ces domaines comme aux experts qui souhaiteraient confronter
+      leurs pratiques à d'autres.
+
+  </header>
 
 
   <!-- This loops through the paginated posts -->
@@ -21,7 +21,7 @@ image: /images/fulls/01.jpg
     <div class="row"> 
       {% for post in paginator.posts %}
 
-      <article class="6u 12u$(xsmall) work-item"><a href="{{ post.url | prepend: site.github.url }}"><img src="/images/thumbs/{{ post.thumbnail }}" class="image fit thumb"></a>
+      <article class="6u 12u$(xsmall) work-item"><a href="{{ post.url | prepend: site.github.url }}"><img src="/images/thumbs/{{ post.thumbnail }}" class="image fit thumb" title="{{ post.thumbnailsource }}"></a>
 	<h3><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h3>
 	<p>
 	  <span><i class="fa fa-calendar"></i> Le {{ post.date | date: "%d-%m-%Y" }}{% if post.categories %}   <i class="fa fa-tags"></i> {{ post.categories | join: ', ' }}{% endif %}</span>
