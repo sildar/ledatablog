@@ -1632,9 +1632,11 @@
 
 			#header {
 				/*padding: ($size-header-pad * 4) $size-header-pad;*/
-
+				padding: 8em 4em 2em;
 				h1 {
+
 					padding: 0 0 0 0;
+					
 					br {
 						display: none;
 					}
