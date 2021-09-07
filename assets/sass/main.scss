@@ -1265,7 +1265,7 @@
 		/* Header */
 
 			#header {
-				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				/*padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;*/
 				width: $size-header-width;
 
 				h1 {
@@ -1346,6 +1346,7 @@
 
 				h1 {
 					font-size: 1.75em;
+					padding: 0 0 0 0;
 
 					br {
 						display: inline;
@@ -1498,6 +1499,7 @@
 
 				h1 {
 					font-size: 1.35em;
+					padding: 0 0 0 0;
 				}
 			}
 
@@ -1629,9 +1631,10 @@
 		/* Header */
 
 			#header {
-				padding: ($size-header-pad * 3) $size-header-pad;
+				/*padding: ($size-header-pad * 4) $size-header-pad;*/
 
 				h1 {
+					padding: 0 0 0 0;
 					br {
 						display: none;
 					}
