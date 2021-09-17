@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+  <head>
+    {% include head.html %}
+
+        <!-- Open Graph -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:first_name" content="Rémi" />
+    <meta property="og:last_name" content="Bois" />
+
+    {% if page.image %}
+    <meta property="og:image" content="{{site.github.url }}{{ page.image }}" />
+    {% endif %}
+
+    {% include twittercard.html %}
+  </head>
+	<body id="top">
+
+		{% include header.html %}
+
+		<!-- Main -->
+			<div id="main">
+				{{ content }}
+			</div>
+
+      {% include footer.html %}
+      {% include scripts.html %}
+      {% include nav.html %}
+
+	</body>
+</html>
