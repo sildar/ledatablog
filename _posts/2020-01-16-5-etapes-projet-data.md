@@ -4,6 +4,7 @@ title:  "Les 5 étapes d'un projet d'Intelligence Artificielle"
 categories: Data IA
 excerpt: "Les projets data et IA peuvent durer de quelques semaines à quelques mois. Comment s'organiser pour mener à bien de tels projets et avec quels jalons ?"
 thumbnail: 'project_planning.jpg'
+thumbalt: 'un graphe de projet'
 closingthumb: 'cat05.jpg'
 closingthumbdesc: "Un projet bien préparé est un projet serein... comme mon chat !"
 ---

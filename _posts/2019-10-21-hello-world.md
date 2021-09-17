@@ -4,6 +4,7 @@ title:  "Hello World !"
 categories: Meta
 excerpt: "Petite description des 4 types de contenus qui apparaîtront dans ce blog : l'IA, la BI, Python, et la data."
 thumbnail: 'brain_computer.jpg'
+thumbalt: 'Un ordinateur avec un cerveau'
 closingthumb: 'cat01.jpg'
 closingthumbdesc: 'Mon chat devrait clore chacun des billets de ce blog.'
 ---

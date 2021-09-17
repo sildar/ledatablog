@@ -4,6 +4,7 @@ title:  "Présidentielles 2022 : À vos data !"
 categories: Data Visualisation Présidentielles
 excerpt: "3 exemples de projets data à mener pour les élections présidentielles de 2022."
 thumbnail: 'elysee.jpg'
+thumbalt: "l'Élysee"
 thumbnailsource: "L'Élysee, photo sous licence CC-BY-SA www.flickr.com/photos/actualitte/9634997219"
 closingthumb: 'cat09c.jpg'
 closingthumbdesc: "Parfois, il ne faut pas avoir peur de se mouiller."

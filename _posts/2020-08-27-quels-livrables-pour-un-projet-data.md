@@ -4,6 +4,7 @@ title:  "Quels livrables pour un projet de datascience ?"
 categories: Data BI IA
 excerpt: "On parle rarement des documents à rédiger et à livrer dans le cadre des projets data. Or, ils sont indispensables à tout projet bien mené."
 thumbnail: 'reporting.jpeg'
+thumbalt: "une femme devant un ordinateur"
 closingthumb: 'cat08c.jpg'
 closingthumbdesc: "Après l'effort, le repos."
 sharethumb: '/images/thumbs/reporting.jpeg'

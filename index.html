@@ -21,7 +21,7 @@ image: /images/fulls/01.jpg
     <div class="row"> 
       {% for post in paginator.posts %}
 
-      <article class="6u 12u$(xsmall) work-item"><a href="{{ post.url | prepend: site.github.url }}"><img src="/images/thumbs/{{ post.thumbnail }}" class="image fit thumb" title="{{ post.thumbnailsource }}"></a>
+      <article class="6u 12u$(xsmall) work-item"><a href="{{ post.url | prepend: site.github.url }}"><img src="/images/thumbs/{{ post.thumbnail }}" class="image fit thumb" title="{{ post.thumbnailsource }}" alt="{{ post.thumbalt }}"></a>
 	<h3><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h3>
 	<p>
 	  <span><i class="fa fa-calendar"></i> Le {{ post.date | date: "%d-%m-%Y" }}{% if post.categories %}   <i class="fa fa-tags"></i> {{ post.categories | join: ', ' }}{% endif %}</span>

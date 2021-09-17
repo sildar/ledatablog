@@ -4,6 +4,7 @@ title:  "Ne laissez pas vos données devenir des Gremlins !"
 categories: Data BI
 excerpt: "Ne pas prendre assez soin de ses données clients expose à de nombreux risques. Pourquoi avoir une source de données unique (single source of truth) est-il primordial, et à quels risques vous exposez-vous si vous n'en disposez pas ?"
 thumbnail: 'gremlins.jpg'
+thumbalt: 'des gremlins'
 closingthumb: 'cat03.jpg'
 closingthumbdesc: "Mon chat ressemble bien plus à Gizmo qu'à un Gremlins... la plupart du temps"
 ---

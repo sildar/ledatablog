@@ -4,6 +4,7 @@ title:  "Visualisation : faire passer un message avec la data"
 categories: Data Visualisation Covid
 excerpt: "Comment faire passer différents messages via la data. Exemple au travers d'une carte publiée par l'INSEE et d'une version alternative dans le contexte du covid-19."
 thumbnail: '2choro.png'
+thumbalt: "deux cartes juxtaposées montrant l'avant et l'après"
 closingthumb: 'cat07.jpg'
 closingthumbdesc: "Chat en attente d'un jeu de plateau !"
 sharethumb: '/images/content/2choro.png'
