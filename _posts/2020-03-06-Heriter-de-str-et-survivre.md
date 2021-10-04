@@ -15,7 +15,7 @@ Malheureusement, c'est généralement une mauvaise idée et de nombreux problèm
 Qu'importe, tentons l'expérience et utilisons l'occasion pour comprendre un peu mieux certaines particularités du langage Python !
 
 Ce billet est une adaptation de mon talk à la PyconFr 2019, un événement annuel qui regroupe les utilisateurs du langage Python.
-Les slides de ma présentation sont [visibles ici](https://sildar.github.io/pyconfr2019/), et la vidéo devrait arriver dans les prochains mois.
+Les slides de ma présentation sont [visibles ici](https://sildar.github.io/pyconfr2019/), et la [vidéo est sur Youtube](https://www.youtube.com/watch?v=iWajitVSRNg&list=PL_dGzOUQ0cyh9OPCiPXyRP9Px72SCHUZ_&index=7).
 
 
 # L'objectif
