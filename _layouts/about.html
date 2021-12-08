@@ -13,6 +13,32 @@
     {% endif %}
 
     {% include twittercard.html %}
+
+    <script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "AboutPage",
+      "mainEntityOfPage":{
+      "@type":"WebPage",
+      "@id":"{{ page.url }}"
+      },
+      "headline": "{{ page.title }}",
+      "image": "{{ page.image }}",
+      "datePublished": "{{ page.date }}",
+      "author": {
+      "@type": "Person",
+      "name": "Rémi Bois"
+      },
+      "publisher": {
+      "@type": Person,
+      "name": "Rémi Bois",
+      },
+      "description": "{{ page.excerpt }}",
+      "articleBody": "{{ content | markdownify | strip_html }}",
+      }
+      </script>
+
+
   </head>
 	<body id="top">
 

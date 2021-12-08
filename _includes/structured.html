@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage":{
+    "@type":"WebPage",
+    "@id":"{{ page.url }}"
+    },
+    "headline": "{{ page.title }}",
+    "image": "{{ page.thumbnail }}",
+    "datePublished": "{{ page.date }}",
+    "author": {
+    "@type": "Person",
+    "name": "Rémi Bois"
+    },
+    "publisher": {
+    "@type": Person,
+    "name": "Rémi Bois",
+    },
+    "description": "{{ page.excerpt }}",
+    "articleBody": "{{ content | markdownify | strip_html }}",
+    }
+    </script>
