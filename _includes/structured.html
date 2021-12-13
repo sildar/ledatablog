@@ -9,6 +9,7 @@
     "headline": "{{ page.title }}",
     "image": "{{ page.thumbnail }}",
     "datePublished": "{{ page.date }}",
+    "keywords"! "{{ page.categories }}"
     "author": {
     "@type": "Person",
     "name": "Rémi Bois",
@@ -19,6 +20,6 @@
     "name": "Rémi Bois"
     },
     "description": "{{ page.excerpt }}",
-    "articleBody": "{{ content | markdownify | strip_html }}"
+    "articleBody": "{{ content | markdownify | strip_html | jsonify }}"
     }
     </script>
